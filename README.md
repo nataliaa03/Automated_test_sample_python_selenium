@@ -81,8 +81,8 @@ $ allure serve <reports directory path>
 Remember that if you did not add allure to system PATH instead of "allure" you need to type all the path of the directory where allure/bin is in your system. 
 for exmple (Linux):
 ```
-$ ~/*/allure-2.13.8/bin/allure serve ~/netguru_task/
+$ ~/*/allure-2.13.8/bin/allure serve report
 
 ```
-
+where "report" is the directory with report in the porject file.
 Report is generated in Chrome browser.
