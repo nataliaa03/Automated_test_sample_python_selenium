@@ -72,13 +72,13 @@ After that you just need to choose one of the tests from "tests" directory and c
 
 To generate all tests report using Allure you need to run tests by command first:
 ```
-$ pytest --alluredir=<reports directory path>
+$ python3 -m pytest --alluredir=<reports directory path>
 ```
 After that you need to use command:
 ```
 $ allure serve <reports directory path>
 ```
-Remember that if you did not add allure to system PATH instead of "allure" you need to type all the path of the directory where allure/bin is in your system. 
+Remember that if you did not add allure to system PATH instead of "allure" you need to type all the path of the directory where allure/bin is in your system,
 for exmple (Linux):
 ```
 $ ~/*/allure-2.13.8/bin/allure serve report
