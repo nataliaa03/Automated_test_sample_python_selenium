@@ -31,6 +31,8 @@ Using Windows:
 $ pip install -r requirements.txt
 ```
 
+<br>
+<br>
 
 ## Run Tests
 In [config.py](config) file by entering paramaters you can choose which browser you choose (Chrome and Firefox are available).
