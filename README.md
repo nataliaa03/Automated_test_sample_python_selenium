@@ -53,12 +53,13 @@ After that you just need to choose one of the tests from "tests" directory and c
 
 
 
-### Generate Test Report
+### [OPTIONAL] Allure (Test Reportng) - installation 
 
 1. You need to have java JDK installed on your system (and Set JAVA_HOME in PATH variables).
 2. Install allure on your system (to use allure as a command you need also add it to PATH) - https://github.com/allure-framework/allure2/releases
 
 
+### Generate Test Report
 
 To generate all tests report using Allure you need to run tests by command first:
 ```
