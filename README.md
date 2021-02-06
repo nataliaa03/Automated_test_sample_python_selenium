@@ -31,11 +31,8 @@ $ pip install -r requirements.txt
 ```
 
 
-## Run Automated Tests
+## Run Tests
 
-```
-$ pip install -r requirements.txt
-```
 
 ## Html report by allure
 1. You need to have java JDK installed on your system (and Set JAVA_HOME in PATH variables).
