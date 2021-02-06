@@ -7,14 +7,14 @@ The test can be run on popular browsers - Chrome and Firefox.
 
 
 ## Project Structure
-Here you can find a short description of main directories and it's content
+
 - [locators](locators) - there are locators of web elements in locators.py grouped in classes
 - [pages](pages) - there are sets of method for each test step (notice: some repeated methods were moved to [functions.py](utils/functions.py))
 - [tests](tests) - there are sets of tests for main functionalities of website
+- [helpers](helpers) - selelnium webdriver methods stored ready to import and use
 - [reports](reports) - if you run tests with Allure, tests reports will be saved in this directory
-- [utils](utils) - this directory contains files responsible for configuration, e.g. driver_factory.py for webdriver management or [read_xlsx.py](utils/read_xlsx.py) for reading input data from xlsx files included in project
-
-
+- [utils](utils) - with drivers.py for webdriver management (Chrome, Firefox)
+- config.py 
 
 ## Getting Started
 
