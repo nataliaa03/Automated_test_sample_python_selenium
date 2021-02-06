@@ -32,7 +32,7 @@ $ pip install -r requirements.txt
 
 
 ## Run Tests
-
+In config.py file by entering paramaters you can choose which browser you choose (Chrome and Firefox are available).
 
 ## Html report by allure
 1. You need to have java JDK installed on your system (and Set JAVA_HOME in PATH variables).
