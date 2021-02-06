@@ -9,12 +9,12 @@ The test can be run on popular browsers - Chrome and Firefox.
 ## Project Structure
 
 - [locators](locators) - there are locators of web elements in locators.py grouped in classes
-- [pages](pages) - there are sets of method for each test step (notice: some repeated methods were moved to [functions.py](utils/functions.py))
+- [pages](pages) - there are sets of method for each test step (webdriver methos are stored in [helpers](helpers) directory)
 - [tests](tests) - there are sets of tests for main functionalities of website
 - [helpers](helpers) - selelnium webdriver methods stored ready to import and use
 - [reports](reports) - if you run tests with Allure, tests reports will be saved in this directory
 - [utils](utils) - with drivers.py for webdriver management (Chrome, Firefox)
-- config.py 
+- config.py - storing paramters for running the tests
 
 ## Getting Started
 
