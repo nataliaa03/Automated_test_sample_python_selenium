@@ -68,7 +68,7 @@ After that you need to use command:
 ```
 $ allure serve <reports directory path>
 ```
-Remember that if you did not add allure to system PATH instead of "allue" you need to type all the path of the directory where allure is in your system. 
+Remember that if you did not add allure to system PATH instead of "allure" you need to type all the path of the directory where allure is in your system. 
 for exmple:
 ```
 $ cd */allure-2.13.8/bin
