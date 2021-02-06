@@ -79,10 +79,10 @@ After that you need to use command:
 $ allure serve <reports directory path>
 ```
 Remember that if you did not add allure to system PATH instead of "allure" you need to type all the path of the directory where allure/bin is in your system,
-for exmple (Linux):
+for exmple (Linux) run this command in your project directory:
 ```
 $ ~/*/allure-2.13.8/bin/allure serve report
 
 ```
-where "report" is the directory with report in the porject file.
+where "report" is the directory with report in the project file.
 Report is generated in Chrome browser.
