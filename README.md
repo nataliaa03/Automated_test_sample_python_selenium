@@ -21,7 +21,7 @@ Here you can find a short description of main directories and it's content
 - download the project or clone repository. 
 - install packages using pip according to requirements.txt file.
 
-Using LInux:
+Using Linux:
 ```
 $ python3 -m pip install -r requirements.txt
 ```
@@ -35,15 +35,11 @@ $ pip install -r requirements.txt
 ## Run Tests
 In config.py file by entering paramaters you can choose which browser you choose (Chrome and Firefox are available).
 
-## Html report by allure
-1. You need to have java JDK installed on your system (and Set JAVA_HOME in PATH variables).
-2. install allure on your system (to use allure as a command you need also add it to PATH) - see below.
-
-## Running test
-1. you need to have /tests as a working directory
+You need to have /tests as a working directory
 ```
 $ python3 -m pytest test_login.py
 ```
+
 
 
 ### If you use Pycharm:
@@ -57,6 +53,11 @@ After that you just need to choose one of the tests from "tests" directory and c
 
 ## Generate Test Report
 
+1. You need to have java JDK installed on your system (and Set JAVA_HOME in PATH variables).
+2. Install allure on your system (to use allure as a command you need also add it to PATH) - https://github.com/allure-framework/allure2/releases
+
+
+
 To generate all tests report using Allure you need to run tests by command first:
 ```
 $ pytest --alluredir=<reports directory path>
@@ -64,6 +65,11 @@ $ pytest --alluredir=<reports directory path>
 After that you need to use command:
 ```
 $ allure serve <reports directory path>
+```
+Remember that if you did not add allure to system PATH instead of "allue" you need to type all the path of the directory where allure is in your system. 
+for exmple:
+```
+$ */allure-2.13.8/bin serve <reports directory path>
 ```
 
 Report is generated in Chrome browser.
