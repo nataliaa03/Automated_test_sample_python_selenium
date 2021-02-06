@@ -51,7 +51,9 @@ File > Settings > Tools > Python Integrated Tools > Testing
 After that you just need to choose one of the tests from "tests" directory and click "Run test" green arrow. 
 
 
-
+<br>
+<br>
+<br>
 
 ### [OPTIONAL] Allure (Test Reportng) - installation 
 
