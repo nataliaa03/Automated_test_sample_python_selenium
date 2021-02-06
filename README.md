@@ -1,8 +1,11 @@
 # python_selenium_netguru_task2
 Task nr2 - two of test scenarios automated. As an example I used timeanddate random application with simple login and registration form. 
 
-I decided to automate TC1 - login with valid login and pasword and TC2a - login with invalid password. 
-I used page object pattern in the framework. As a logging and report form I used allure which generates reports after running tests in html file (see below). 
+I decided to automate: <br>
+TC1 - login with valid login and pasword <br>
+TC2a - login with invalid password. <br>
+<br>
+I used page object pattern in the framework. As a logging and report form I used allure which generates reports after running tests in html file (see below). <br>
 The test can be run on popular browsers - Chrome and Firefox.
 
 
