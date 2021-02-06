@@ -33,14 +33,16 @@ $ pip install -r requirements.txt
 
 
 ## Run Tests
-In config.py file by entering paramaters you can choose which browser you choose (Chrome and Firefox are available).
+In [config.py](config) file by entering paramaters you can choose which browser you choose (Chrome and Firefox are available).
+
+### If you use command line (without IDE)
 
 You need to have /tests as a working directory
 ```
 $ python3 -m pytest test_login.py
 ```
 
-
+<br>
 
 ### If you use Pycharm:
 
