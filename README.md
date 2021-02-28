@@ -1,6 +1,6 @@
-# Test sample - Python Selenium for a web application
+# Test sample - Python Selenium for a random web application
 
-This is an autmated test. It includes two test cases:
+This is an exmple of an autmated test using Selenium Framework. It includes two test cases:
 
 
 TC1 - login with valid login and pasword <br>
