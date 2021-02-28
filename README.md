@@ -1,10 +1,8 @@
-# python_selenium_netguru_task2
-Task nr2 - two of test scenarios automated. As an example I used 'timeanddate' random application with simple login and registration form.
+# Test sample - Python Selenium for a web application
 
-I used Python language -  pytest and Selenium framework.
+This is an autmated test. It includes two test cases:
 
 
-I decided to automate test cases: <br>
 TC1 - login with valid login and pasword <br>
 TC2a - login with invalid password. <br>
 <br>
