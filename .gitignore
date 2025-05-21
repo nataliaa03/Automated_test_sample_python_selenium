@@ -1,5 +1,6 @@
 __pycache__/
 venv/
+.idea/
 report/
 config/__pycache__/
 locators/__pycache__/
