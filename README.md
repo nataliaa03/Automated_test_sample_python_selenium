@@ -39,24 +39,17 @@ $ pip install -r requirements.txt
 <br>
 
 ## Run Tests
-In [config.py](config) file by entering paramaters you can choose which browser you choose (Chrome and Firefox are available).
+# Requirements: 
+docker installed on your machine
 
-### If you use command line (without IDE)
+# To start the container use command:
+`docker-compose up -d` -> then you are able to go to http://localhost:4444/ and see sessions with tests run.
 
+# To start tests use command:
+```
+$ python -m pytest --tb=short tests/test_login.py
+```
 You need to have /tests as a working directory
-```
-$ python3 -m pytest test_login.py
-```
-
-<br>
-
-### If you use Pycharm:
-
-To run selected test without Allure report you need to set pytest as default test runner in Pycharm first
-```
-File > Settings > Tools > Python Integrated Tools > Testing
-```
-After that you just need to choose one of the tests from "tests" directory and click "Run test" green arrow.
 
 
 <br>
