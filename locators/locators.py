@@ -1,22 +1,20 @@
 from selenium.webdriver.common.by import By
 
-class LogInLocators:
-    user_menu = (By.XPATH, "//i[@class='i-font i-account_circle site-nav__desktop-title']")
-    sign_in_button = (By.XPATH, "//section[@class='article__body article__body--right']//a[contains(text(), 'Sign In')]")
 
-    create_account_button = (By.XPATH, "//section[@class='article__body article__body--right']//*[contains(text(), 'Create Account')]")
+class LogInLocators:
+    agree_button = (By.XPATH, "//button/span[text()='AGREE']")
+    my_account_icon = (By.CSS_SELECTOR, '.site-nav__menu--my-account a i')
+    sign_in_button = (By.XPATH, "//a[contains(text(), 'Sign in')]")
+    sign_out_button = (By.XPATH, "//a[contains(text(), 'Sign out')]")
+
+    create_account_button = (By.XPATH, "//a[contains(text(), 'Register')]")
 
     sign_in_email_input = (By.XPATH, "//input[@id='email']")
     sign_in_password_input = (By.XPATH, "//input[@id='password']")
     access_denied_message = (By.XPATH, "//*[contains(text(), 'Access denied - wrong email address or password.')]")
+    login_error_message = (By.CSS_SELECTOR, "#errormessage")
 
-    welcome_message = (By.XPATH, "//h1[contains(text(), 'Hi')]")
-
-    sign_out_link = (By.ID, "my-out")
-
-
-
-# Access denied - wrong email address or password.
+    flash_message = (By.CSS_SELECTOR, "#anw")
 
 
 class RegisterLocators:
